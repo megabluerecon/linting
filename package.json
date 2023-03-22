@@ -8,7 +8,8 @@
     "lint:css": "stylelint '**/*.css'",
     "lint:css:fix": "stylelint '**/*.css' --fix",
     "lint:js": "eslint '**/*.js' --ignore-pattern node\\_modules/",
-    "lint:js:fix": "eslint '**/*.js' --ignore-pattern node\\_modules/ --fix"
+    "lint:js:fix": "eslint '**/*.js' --ignore-pattern node\\_modules/ --fix",
+    "lint": "npm run lint:js && npm run lint:css"
   },
   "keywords": [],
   "author": "",
