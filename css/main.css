@@ -1,0 +1,14 @@
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    footer {
+      background-color: #000;
+      color: white;
+      padding: 15px;
+    }   
+
+    #my-container {
+      padding-top:5%;
+    }
